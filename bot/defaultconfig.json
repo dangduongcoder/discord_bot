@@ -1,0 +1,21 @@
+{
+	"token": "",
+	"prefix": "!",
+	"admin": ["715782249693446155"],
+	"api": {
+		"cadao": [
+			"https://manhict.tech/cadaovn",
+			["result","rdCadao"]
+		],
+		"girl": [
+			"https://manhict.tech/images/world/vietnam?apikey=KeyTest",
+			["url"]
+		],
+		"eco": [
+		  "https://raw.githubusercontent.com/Citnut/Citnut/main/KB2ABotECOConfig.json",[""]
+		]
+	},
+	"price": {
+		"uptime": 200
+	}
+}

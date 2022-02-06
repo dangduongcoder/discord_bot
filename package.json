@@ -1,0 +1,30 @@
+{
+	"name": "citnutbot",
+	"version": "1.2.1",
+	"description": "adu j ngu vay",
+	"main": "bot/index.js",
+	"scripts": {
+		"start": "node bot/index.js",
+		"update": "node bot/update.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Citnut/demoProject.git"
+	},
+	"keywords": [
+		"DCbot"
+	],
+	"author": "Citnut",
+	"license": "MIT",
+	"homepage": "",
+	"dependencies": {
+		"axios": "^0.22.0",
+		"colors": "^1.4.0",
+		"discord.js": "^13.6.0",
+		"fs": "^0.0.1-security",
+		"node-fetch": "^2.6.5",
+		"decache": "^4.6.0",
+		"simple-git": "^2.48.0",
+		"recursive-readdir": "^2.2.2"
+	}
+}
