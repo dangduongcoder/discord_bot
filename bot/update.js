@@ -10,7 +10,7 @@ const { execShellCommand } = require('./tools.js')
     const initResult = await git.init()
     console.log('Initing git remote . . .')
     if (!initResult.existing) {
-        await git.addRemote('origin', 'https://github.com/Citnut/demoProject')
+        await git.addRemote('origin', 'https://github.com/dangduongcoder/discord_bot')
     }
     const { dependencies } = require('../package.json')
     console.log('Fetching data . . .')
