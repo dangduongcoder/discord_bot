@@ -4,7 +4,7 @@
 	"description": "adu j ngu vay",
 	"main": "bot/index.js",
 	"scripts": {
-		"start": "nodemon --delay 5 --ingore data.json bot/index.js",
+		"start": "nodemon --delay 5 --ignore data.json bot/index.js",
 		"update": "node bot/update.js"
 	},
 	"repository": {
